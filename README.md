@@ -12,5 +12,9 @@ Instructions to run the app:
 
 Screenshots:
 
+
 ![alt text](https://github.com/srahul14/Beatdapp_coding_challenge/blob/master/1.PNG)
+
+
+
 ![alt text](https://github.com/srahul14/Beatdapp_coding_challenge/blob/master/2.PNG)
