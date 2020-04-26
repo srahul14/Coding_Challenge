@@ -11,5 +11,5 @@ Instructions to run the app:
 8. Locate to localhost:4200 in your browser
 
 Screenshots:
-![](1.png)
-![](2.png)
+![](/1.png)
+![](/2.png)
