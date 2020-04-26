@@ -9,7 +9,3 @@ Instructions to run the app:
 6. Inside Rahul Beatdapp\Frontend run the command 'ng serve'
 7. Inside Rahul Beatdapp\Backend run the command 'node app.js'
 8. Locate to localhost:4200 in your browser
-
-Screenshots:
-![screenshot1](/images/1.png)
-![screenshot2](/images/2.png)
