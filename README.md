@@ -9,3 +9,8 @@ Instructions to run the app:
 6. Inside Rahul Beatdapp\Frontend run the command 'ng serve'
 7. Inside Rahul Beatdapp\Backend run the command 'node app.js'
 8. Locate to localhost:4200 in your browser
+
+Screenshots:
+
+![alt text](https://github.com/srahul14/Beatdapp_coding_challenge/blob/master/1.PNG)
+![alt text](https://github.com/srahul14/Beatdapp_coding_challenge/blob/master/2.PNG)
