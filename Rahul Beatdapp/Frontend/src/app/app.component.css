@@ -1,0 +1,103 @@
+div{
+    background-color: lightblue;
+}
+
+.errorMsg {
+    color: red;
+    width: 800px;
+}
+
+
+
+.button {
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.my_button {
+    background-color: gray;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.my_button:hover {
+    background-color: #555555;
+    color: black;
+}
+
+table {
+    align-self: center;
+    border-collapse: collapse;
+    width: 55%;
+}
+  
+th, td {
+    text-align: left;
+    padding: 2px;
+}
+  
+tr:nth-child(even){background-color: yellowgreen}
+  
+th {
+    background-color: yellow;
+    color: green;
+}
+
+.my_header {
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-align: left;
+}
+
+.my_header_2 {
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-align: left;
+}
+
+.subtotal {
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-align: left;
+}
+
+a:link {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-decoration: blue;
+    vertical-align:middle;
+  }
+  
+a:visited {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-decoration: purple;
+    vertical-align:middle;
+}
+  
+a:hover {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-decoration: underline;
+    vertical-align:middle;
+}
+  
+a:active {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    text-decoration: underline;
+    vertical-align:middle;
+}
+

@@ -1,0 +1,48 @@
+<div style="text-align:center">
+<label class="my_header_2">Enter product:<br></label><input type="text" [(ngModel)]="_singleProductName" value="{{_singleProductName}}"><br><br>
+<label class="my_header_2">Enter category:<br></label><input type="text" [(ngModel)]="_singleProductCategory" value="{{_singleProductCategory}}"><br><br>
+<label class="my_header_2">Enter single unit price: $<br></label><input type="text" [(ngModel)]="_singleProductPrice" value="{{_singleProductPrice}}"><br><br>
+<label class="my_header_2">Enter quantity:<br></label><input type="text" [(ngModel)]="_singleProductQty" value="{{_singleProductQty}}"><br><br>
+<button class="button my_button" (click)="addItem()">{{_button_name}}</button>
+&nbsp;&nbsp;{{_expense_error}}
+<br><br>
+<hr/>
+</div>
+
+<table class="mytable">
+  <tr>
+    <td></td><td class="my_header" style="text-align:left" >Product Category</td><td class="my_header" style="text-align:left">Quantity</td><td class="my_header" style="text-align:left">Amount</td><td></td>
+  </tr>
+  <tr *ngFor="let item of _expenseItems">
+      <td>
+          {{item.name}}
+      </td>
+      <td>
+          {{item.category}}
+      </td>
+      <td>
+          {{item.qty}}
+      </td>
+      <td>
+          ${{item.price*item.qty | number : '1.2-2'}}
+      </td>
+      <td>
+          <input type="button" value="Delete"
+          (click)="removeItem(item.name)">
+      </td>
+  </tr>
+  <tr> 
+      <td class="my_header_2">Total</td>
+      <td></td>
+      <td></td>
+      <td class="subtotal">${{_subtotal | number : '1.2-2'}}</td>
+      <td></td>
+  </tr>
+</table>
+<br>
+{{_addr_desc}}
+
+<button class="button my_button" (click)="submitExpense()" >Submit</button>
+
+{{_errorMessage}}
+
